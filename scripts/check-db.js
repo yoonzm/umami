@@ -94,7 +94,7 @@ async function applyMigration() {
     checkConnection, 
     checkDatabaseVersion, 
     checkV1Tables, 
-    // applyMigration
+    applyMigration
   ]) {
     try {
       await fn();
